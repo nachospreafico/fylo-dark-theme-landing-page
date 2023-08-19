@@ -1,0 +1,222 @@
+@media only screen and (max-width: 600px) {
+  .comments-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    padding: 10%;
+    margin-bottom: 7rem;
+  }
+
+  .comment-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.6fr 0.4fr;
+    background-color: #202a3c;
+    padding: 5%;
+    gap: 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.05);
+  }
+
+  .comment-text {
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem;
+    margin: 0;
+  }
+
+  .user-container {
+    display: grid;
+    grid-template-columns: 0.15fr 0.85fr;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .user-img {
+    width: 100%;
+    border-radius: 50%;
+    justify-self: center;
+  }
+
+  .user {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: left;
+  }
+
+  .user-name {
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.75rem; /* 120% */
+    letter-spacing: 0.03125rem;
+    margin: 0;
+  }
+
+  .user-job {
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 0.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.625rem; /* 142.857% */
+    letter-spacing: 0.03125rem;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .comments-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 7%;
+  }
+
+  .comment-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 0.3fr;
+    background-color: #202a3c;
+    padding: 5%;
+    gap: 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.05);
+    height: fit-content;
+    align-items: center;
+  }
+
+  .comment-text {
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3125rem; /* 150% */
+    letter-spacing: 0.03125rem;
+  }
+
+  .user-container {
+    display: grid;
+    grid-template-columns: 0.15fr 0.85fr;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .user-img {
+    width: 100%;
+    border-radius: 50%;
+    justify-self: center;
+  }
+
+  .user {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: left;
+  }
+
+  .user-name {
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.75rem; /* 120% */
+    letter-spacing: 0.03125rem;
+    margin: 0;
+  }
+
+  .user-job {
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.625rem; /* 125% */
+    letter-spacing: 0.03569rem;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .comments-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 10%;
+  }
+
+  .comment-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.6fr 0.4fr;
+    background-color: #202a3c;
+    padding: 5%;
+    gap: 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.05);
+  }
+
+  .comment-text {
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3125rem; /* 150% */
+    letter-spacing: 0.03125rem;
+  }
+
+  .user-container {
+    display: grid;
+    grid-template-columns: 0.15fr 0.85fr;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .user-img {
+    width: 100%;
+    border-radius: 50%;
+    justify-self: center;
+  }
+
+  .user {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: left;
+  }
+
+  .user-name {
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.75rem; /* 120% */
+    letter-spacing: 0.03125rem;
+    margin: 0;
+  }
+
+  .user-job {
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.625rem; /* 125% */
+    letter-spacing: 0.03569rem;
+    margin: 0;
+  }
+}

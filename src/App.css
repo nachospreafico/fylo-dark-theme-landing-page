@@ -1,0 +1,14 @@
+body {
+  background-color: hsl(217, 28%, 15%);
+  margin: 0;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("./assets/fonts/Raleway.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("./assets/fonts/OpenSans.ttf");
+}

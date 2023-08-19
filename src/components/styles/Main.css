@@ -1,0 +1,194 @@
+@media only screen and (max-width: 600px) {
+  main {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    padding: 4%;
+    margin-bottom: 7.5rem;
+  }
+
+  .illustration-intro {
+    height: 14rem;
+    width: 19rem;
+  }
+
+  .intro-title {
+    color: white;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.25rem;
+    text-align: center;
+    margin: 2rem 0 0.9rem 0;
+    width: 90%;
+    font-family: Raleway;
+  }
+
+  .intro-text {
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3125rem; /* 150% */
+    font-family: OpenSans;
+    width: 90%;
+  }
+
+  .intro-btn {
+    width: 15rem;
+    height: 3rem;
+    background: rgb(99, 225, 217);
+    background: linear-gradient(
+      180deg,
+      rgba(99, 225, 217, 1) 0%,
+      rgba(52, 160, 205, 1) 100%
+    );
+    border: none;
+    border-radius: 1.5rem;
+    justify-self: center;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    font-family: OpenSans;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  main {
+    height: 80%;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto 5rem auto;
+  }
+
+  .illustration-intro {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2.25rem;
+  }
+
+  .intro-title {
+    color: #fff;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    margin: 0 0 2rem 0;
+    width: 100%;
+    font-family: Raleway;
+  }
+
+  .intro-text {
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    font-family: OpenSans;
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  .intro-btn {
+    width: 17.5rem;
+    height: 3.5rem;
+    background: rgb(99, 225, 217);
+    background: linear-gradient(
+      180deg,
+      rgba(99, 225, 217, 1) 0%,
+      rgba(52, 160, 205, 1) 100%
+    );
+    border: none;
+    border-radius: 1.5rem;
+    justify-self: center;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    font-family: OpenSans;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    height: 80%;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    margin: 0 auto 6rem auto;
+  }
+
+  .illustration-intro {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2.25rem;
+  }
+
+  .intro-title {
+    color: #fff;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    margin: 0 0 2rem 0;
+    width: 100%;
+    font-family: Raleway;
+  }
+
+  .intro-text {
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    font-family: OpenSans;
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  .intro-btn {
+    width: 17.5rem;
+    height: 3.5rem;
+    background: rgb(99, 225, 217);
+    background: linear-gradient(
+      180deg,
+      rgba(99, 225, 217, 1) 0%,
+      rgba(52, 160, 205, 1) 100%
+    );
+    border: none;
+    border-radius: 1.5rem;
+    justify-self: center;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    font-family: OpenSans;
+  }
+
+  .intro-btn:hover {
+    background: #8adae3;
+    cursor: pointer;
+  }
+}
