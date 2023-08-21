@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5%;
+    background-color: #0b1524;
+    padding-top: 16rem;
+  }
+
+  .footer-logo {
+    margin-left: 2.5%;
+    width: 29%;
+    margin-bottom: 2.19rem;
+  }
+
+  .company-data-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .location-container,
+  .phone-container,
+  .email-container {
+    display: grid;
+    grid-template-columns: 0.1fr 0.9fr;
+    gap: 1rem;
+  }
+
+  .data-icon {
+    align-self: self-start;
+    justify-self: start;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+
+  .data-text {
+    margin: 0;
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    width: 100%;
+  }
+
+  .footer-navbar {
+    margin-bottom: 3.5rem;
+  }
+
+  .footer-navbar-1,
+  .footer-navbar-2 {
+    list-style: none;
+    color: white;
+    font-family: OpenSans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .footer-navbar-1 {
+    margin-bottom: 3rem;
+  }
+
+  .social-icons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 30%;
+    margin: 0 auto 0 auto;
+  }
+
+  .social-icons-container div {
+    border: solid 1px white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 15%;
+    border-radius: 50%;
+  }
+}

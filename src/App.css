@@ -12,3 +12,7 @@ body {
   font-family: OpenSans;
   src: url("./assets/fonts/OpenSans.ttf");
 }
+
+.app-container {
+  position: relative;
+}

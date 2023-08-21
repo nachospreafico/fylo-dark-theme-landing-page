@@ -5,6 +5,10 @@
     border-radius: 0.5625rem;
     margin: 0 auto 0 auto;
     width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 19%;
   }
 
   .access-card {
