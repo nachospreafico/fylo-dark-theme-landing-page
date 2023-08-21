@@ -1,6 +1,19 @@
+import { useState } from "react";
+
 import "./styles/EarlyAccess.css";
 
 const EarlyAccess = () => {
+  const [isValid, setIsValid] = useState(true);
+
+  function handleValidEmail(e) {
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    if (emailRegex.test(e.target.value)) {
+      setIsValid(true);
+    } else {
+      setIsValid(false);
+    }
+  }
+
   return (
     <section className="access-section">
       <div className="access-card">
@@ -17,9 +30,13 @@ const EarlyAccess = () => {
             required
             maxLength={100}
             placeholder="email@example.com"
+            onChange={handleValidEmail}
           ></input>
           <button className="access-btn">Get Started For Free</button>
         </form>
+        {!isValid && (
+          <p className="error-msg">Error, please check your email</p>
+        )}
       </div>
     </section>
   );

@@ -7,7 +7,7 @@ import AnyFile from "./../assets/images/icon-any-file.svg";
 
 const Features = () => {
   return (
-    <section className="features-section">
+    <section className="features-section" id="features">
       <div className="feature-card">
         <img className="feature-img" src={Access}></img>
         <h3 className="feature-title">Access your files, anywhere</h3>

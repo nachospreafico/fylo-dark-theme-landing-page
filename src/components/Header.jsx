@@ -6,12 +6,14 @@ const Header = () => {
   return (
     <header>
       <div className="logo-container">
-        <img src={Logo} className="logo" alt="Fylo logo"></img>
+        <a href="#">
+          <img src={Logo} className="logo" alt="Fylo logo"></img>
+        </a>
       </div>
       <nav className="header-navbar">
         <ul>
           <li>
-            <a href="#" className="header-navbar-link">
+            <a href="#features" className="header-navbar-link">
               Features
             </a>
           </li>

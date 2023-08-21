@@ -1,3 +1,14 @@
+.error-msg {
+  margin: 0;
+  text-align: center;
+  color: #ff4242;
+  font-family: OpenSans;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 @media only screen and (max-width: 600px) {
   .access-section {
     background-color: #202a3c;
@@ -8,7 +19,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 19%;
+    top: 73%;
   }
 
   .access-card {
@@ -263,5 +274,9 @@
       rgba(99, 225, 217, 1) 0%,
       rgba(52, 160, 205, 1) 100%
     );
+  }
+  .access-btn:hover {
+    background: #8adae3;
+    cursor: pointer;
   }
 }

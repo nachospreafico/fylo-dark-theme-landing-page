@@ -86,3 +86,303 @@
     border-radius: 50%;
   }
 }
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "footer-logo"
+      "footer-content";
+    padding: 4%;
+    gap: 3.25rem;
+  }
+
+  .footer-logo {
+    grid-area: footer-logo;
+    width: 15%;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: 0.6fr 0.2fr 0.2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "company-data-container footer-navbar social-icons-container";
+    grid-area: footer-content;
+  }
+
+  .company-data-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5rem;
+    grid-auto-flow: row;
+    grid-template-areas: "location-container contact-container";
+    grid-area: company-data-container;
+    height: fit-content;
+  }
+
+  .location-container,
+  .email-container,
+  .phone-container {
+    grid-area: location-container;
+    display: grid;
+    grid-template-columns: 0.1fr 0.9fr;
+    gap: 1.3rem;
+  }
+
+  .data-icon {
+    justify-self: center;
+  }
+
+  .data-text {
+    margin: 0;
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "phone-container"
+      "email-container";
+    grid-area: contact-container;
+  }
+
+  .phone-container {
+    grid-area: phone-container;
+  }
+
+  .email-container {
+    grid-area: email-container;
+  }
+
+  .footer-navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "footer-navbar-1";
+    grid-area: footer-navbar;
+    margin: 0;
+    padding-left: 5%;
+  }
+
+  .footer-navbar-1 {
+    grid-area: footer-navbar-1;
+  }
+
+  .footer-navbar-2 {
+    grid-area: footer-navbar-2;
+  }
+
+  .footer-navbar-1,
+  .footer-navbar-2 {
+    list-style: none;
+    color: white;
+    font-family: OpenSans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .social-icons-container {
+    grid-area: social-icons-container;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: left;
+    width: 100%;
+  }
+
+  .social-icons-container div {
+    border: solid 1px white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 15%;
+    border-radius: 50%;
+    height: fit-content;
+    width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "footer-logo"
+      "footer-content";
+    padding: 5%;
+    gap: 3.25rem;
+  }
+
+  .footer-logo {
+    grid-area: footer-logo;
+    width: 7.5%;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: 0.6fr 0.2fr 0.2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "company-data-container footer-navbar social-icons-container";
+    grid-area: footer-content;
+  }
+
+  .company-data-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5rem;
+    grid-auto-flow: row;
+    grid-template-areas: "location-container contact-container";
+    grid-area: company-data-container;
+    height: fit-content;
+  }
+
+  .location-container,
+  .email-container,
+  .phone-container {
+    grid-area: location-container;
+    display: grid;
+    grid-template-columns: 0.1fr 0.9fr;
+    gap: 1.3rem;
+  }
+
+  .data-icon {
+    justify-self: center;
+  }
+
+  .data-text {
+    margin: 0;
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "phone-container"
+      "email-container";
+    grid-area: contact-container;
+  }
+
+  .phone-container {
+    grid-area: phone-container;
+  }
+
+  .email-container {
+    grid-area: email-container;
+  }
+
+  .footer-navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "footer-navbar-1";
+    grid-area: footer-navbar;
+    margin: 0;
+    padding-left: 5%;
+  }
+
+  .footer-navbar-1 {
+    grid-area: footer-navbar-1;
+  }
+
+  .footer-navbar-2 {
+    grid-area: footer-navbar-2;
+  }
+
+  .footer-navbar-1,
+  .footer-navbar-2 {
+    list-style: none;
+    color: white;
+    font-family: OpenSans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .footer-link:hover {
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .social-icons-container {
+    grid-area: social-icons-container;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: left;
+    width: 50%;
+  }
+
+  .social-icons-container div {
+    border: solid 1px white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 15%;
+    border-radius: 50%;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .facebook-container:hover {
+    cursor: pointer;
+    border-color: #1877f2;
+  }
+
+  .instagram-container:hover {
+    cursor: pointer;
+    border-color: #dd2a7b;
+  }
+
+  .x-twitter-container:hover {
+    cursor: pointer;
+    border-color: #62e0d9;
+  }
+}
